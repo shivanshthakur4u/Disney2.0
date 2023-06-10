@@ -11,6 +11,7 @@ import HeaderItems from "./HeaderItems";
 import { useState } from "react";
 const Header = () => {
     const [toggle, setToggle]=useState(false);
+
   const menu = [
     {
       name: "HOME",
@@ -37,6 +38,7 @@ const Header = () => {
       icon: HiTv,
     },
   ];
+  
   return (
     <div className='flex items-center justify-between p-5'>
     <div className='flex  gap-8 items-center'>
