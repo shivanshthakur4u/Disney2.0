@@ -1,4 +1,5 @@
-import logo from "../Images/Logo.svg";
+import logo from "../assets/Images/Logo.svg"
+
 import {
   HiHome,
   HiMagnifyingGlass,
